@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sign Up</title>
+</head>
+<body>
+  <section class="Header">
+    <div class="navbar">
+     <div class="navitem-left">
+         <a href="./index.html"><i class="fa fa-fw fa-home"></i>HOME</a>
+         <a href="./aboutus.html"><i class="fa fa-group"></i>ABOUT US</a>
+         <a href="./Blog.html"><i class="fa fa-wechat"></i>BLOG</a>
+     </div>
+     <div class="navitem-right">
+             <a href="./login.html"><i class="fa fa-sign-in"></i>LOGIN</a>
+             <a href="./signup.html"><i class="fa fa-sign-out"></i>SIGNUP</a>
+             <a href="./privacyPolicy.html"><i class="fa fa-address-book "></i>PRIVACY POLICY</a>
+             <a href="./QA.html"><i class="fa fa-question-circle"></i>Q&A</a>
+
+     </div>
+    </div>
+ </section>
+    <section class="signup-form">
+        <form class="signup-container" action="none">
+          <!-- The <fieldset> tag draws a box around the related elements. -->
+            <h1 class="form-title">Registration Form :</h1>
+          <fieldset class="signup-fieldset">
+            <div class="form-item">
+              <!-- Used to define the title -->
+              <div class="input-form-items">
+                <label for="Fname">First Name:</label><br>
+                <input class="signup-input" type="text" name="fnane" id="Fname" placeholder="First Name"> <br>
+    
+                <label for="Lname">Last Name:</label><br>
+                <input class="signup-input" type="text" name="Lname" id="Lname" placeholder="Last Name"> <br>
+    
+                <label for="Age">Age:</label><br>
+                <input class="signup-input" type="number" name="Age" id="Age" placeholder="Age"><br>
+    
+                <label for="Email">Email:</label><br>
+                <input class="signup-input" type="email" name="Email" id="Email" placeholder="Email"><br>
+    
+                <label for="City">City:</label><br>
+                <input class="signup-input" type="text" name="City" id="City" placeholder="City"><br>
+    
+                <label for="State">State:</label><br>
+                <input class="signup-input" type="text" name="State" id="State" placehol>
+                <label for="Zip" >Pincode:</label><br>
+                <input class="signup-input" type="text" name="Zip" id="Zip" placeholder="Pincode"><br>
+    
+                <label for="Country">Country:</label><br>
+                <input class="signup-input" type="text" name="Country" id="Country" placeholder="Country"><br>
+                <label> Gender:</label><br>
+              <input class="signup-input-radio" type="radio" name="Gender" value="Male">
+              <label for="Gender">Male</label>
+              <input class="signup-input-radio" type="radio" name="Gender" value="Female">
+              <label for="Gender">Female</label><br>
+              <br>
+              </div>
+              
+    
+              <!-- Dropdown menu -->
+              <label for="Select Subject">Select Three Subject: </label>
+              <select multiple name="subject" id="subjet">
+                <option value="Hindi">Hindi</option>
+                <option value="English">English</option>
+                <option value="Math">Math</option>
+                <option value="Physics">Physics</option>
+                <option value="Chemestry">Chemestry</option>
+                <option value="Biology">Biology</option>
+              </select><br>
+    
+              <label for="Address">Address: </label><br>
+              <textarea name="address" id="address" cols="30" rows="10"
+                placeholder="Please enter your address here:"></textarea><br>
+    
+              <input class="signup-btn" type="button" value="Cancel">
+              <button class="signup-btn">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+      <section class="footer">
+        <footer class="footer-content">
+          <div class="items">
+            <a href="#"><li>Privacy Policy |</li></a>
+            <a href="#"><li>Contact Us |</li></a>
+            <a href="#"><li>Help </li></a>
+          </div>
+          <div class="copyright">
+            <p>	&#169 Copyright 2023 </p>
+          </div>
+        </footer>
+      </section>
+</body>
+</html>
